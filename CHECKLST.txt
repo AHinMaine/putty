@@ -142,6 +142,7 @@ Making a release candidate build
        + test-build with -DNOT_X_WINDOWS (compile flag)
        + test-build with -DPUTTY_GSSAPI=OFF (cmake flag)
        + test-build with -DPUTTY_IPV6=OFF (cmake flag)
+       + test-build with -DJUST_USE_GTK_CLIPBOARD_UTF8 (compile flag)
     * test that the Windows source builds with Visual Studio (just in
       case there's an unguarded clangism that would prevent it)
     * quick check of the outlying network protocols (Telnet, SUPDUP
