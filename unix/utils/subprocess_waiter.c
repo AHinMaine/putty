@@ -8,6 +8,8 @@
 #include "putty.h"
 #include "tree234.h"
 
+#include <signal.h>
+
 #include <unistd.h>
 #include <sys/wait.h>
 
